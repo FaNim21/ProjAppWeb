@@ -1,0 +1,65 @@
+<section class="main-content" onload="StartClock()">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="../js/kolorujtlo.js" type="text/javascript"></script>
+    <script src="../js/timedate.js" type="text/javascript"></script>
+    <h2>Skrpyty Strony</h2>
+    <p>Tutaj znajdują sie skrypty lab2</p>
+
+    <form method="POST" , name="background">
+        <input type="button" , value="żółty" , onclick="changeBackground('#FFF000')">
+        <input type="button" , value="czarny" , onclick="changeBackground('#000000')">
+        <input type="button" , value="biały" , onclick="changeBackground('#FFFFFF')">
+        <input type="button" , value="zielony" , onclick="changeBackground('#00FF00')">
+        <input type="button" , value="niebieski" , onclick="changeBackground('#0000ff')">
+        <input type="button" , value="pomarańczowy" , onclick="changeBackground('#FF8000')">
+        <input type="button" , value="szary" , onclick="changeBackground('#c0c0c0')">
+        <input type="button" , value="czerwony" , onclick="changeBackground('#FF0000')">
+    </form>
+
+    <div id="zegarek"></div>
+    <div id="data"></div>
+
+    <br>
+    <br>
+    <br>
+
+    <div id="animacjaTestowa1" class="test-block">Kliknij, a sie powiekszy</div>
+    <div id="animacjaTestowa2" class="test-block">Najedz kursorem, a sie powiekszy</div>
+    <div id="animacjaTestowa3" class="test-block">kliknij abym urosl</div>
+
+    <script>
+        $("#animacjaTestowa1").on("click", function () {
+            $(this).animate({
+                width: "500px",
+                opacity: 0.4,
+                fontSize: "3em",
+                borderWidth: "10px" // Corrected property name
+            }, 1500);
+        });
+
+        $("#animacjaTestowa2").on({
+            "mouseover": function () {
+                $(this).animate({
+                    width: 300
+                }, 800);
+            },
+            "mouseout": function () {
+                $(this).animate({
+                    width: 200
+                }, 800);
+            }
+        });
+
+        $(document).ready(function () {
+            $("#animacjaTestowa3").on("click", function () {
+                if (!$(this).is(":animated")) {
+                    $(this).animate({
+                        width: "+=50",
+                        height: "+=10",
+                        opacity: "-=0.1",
+                    }, 3000);
+                }
+            });
+        });
+    </script>
+</section>

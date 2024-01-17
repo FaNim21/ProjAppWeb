@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #2b2b2b;
+    color: #ffffff;
+}
+
+table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+td, th {
+    padding: 10px;
+    text-align: center;
+}
+
+button, input[type="submit"] {
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+    padding: 14px 20px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    display: block;
+}
+
+button:hover, input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+p {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.createForm {
+    width: 50%;
+    margin: 0 auto;
+}
+
+form {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+h1 {
+    color: #007bff;
+}
+
+input, textarea, label {
+    margin: 10px 0;
+}
+
+.checkbox {
+    margin-right: 5px;
+}
+
+.create, .edit {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.create:hover, .edit:hover {
+    background-color: #0056b3;
+}

@@ -1,0 +1,64 @@
+.container {
+    text-align: center;
+}
+
+.contact-form {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+label {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+input[type="text"], input[type="email"] {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+textarea {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: none;
+}
+
+.cv-attach {
+    font-size: 0.9em;
+}
+
+input[type="file"] {
+    padding: 12px 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 40px;
+    vertical-align: middle;
+}
+
+button {
+    width: 5%;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 136, 169, 0.8);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.mailto {
+    text-decoration: none;
+    color: white;
+}

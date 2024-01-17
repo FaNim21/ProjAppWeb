@@ -1,0 +1,93 @@
+body {
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url(../img/background.jpg);
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+.main-content {
+    width: 80%;
+    margin: 0px auto;
+    padding: 20px;
+    background-color: #2a2626;
+    color: white;
+}
+
+.menu {
+    background-color: #161414;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.shop-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.shop-table th,
+.shop-table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.shop-table th {
+    background-color: #333;
+    color: white;
+}
+
+.shop-table td img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.button {
+    background-color: #007bff;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.button-koszyk {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.button-koszyk:hover {
+    background-color: #0056b3;
+}
